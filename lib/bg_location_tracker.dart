@@ -1,0 +1,22 @@
+library bg_location_tracker;
+
+export 'src/tracker.dart';
+export 'src/config/tracking_config.dart';
+export 'src/config/tracking_mode.dart';
+export 'src/config/tracking_presets.dart';
+export 'src/config/tracker_options.dart';
+export 'src/config/notification_options.dart';
+export 'src/config/upload_config.dart';
+export 'src/config/battery_policy.dart';
+export 'src/config/schedule.dart';
+export 'src/config/shift.dart';
+export 'src/config/geofence.dart';
+export 'src/models/location_point.dart';
+export 'src/models/tracking_state.dart';
+export 'src/models/tracking_session.dart';
+export 'src/models/permission_status.dart';
+export 'src/models/sync_status.dart';
+export 'src/models/tracker_error.dart';
+export 'src/models/diagnostics.dart';
+export 'src/models/tracking_event_log.dart';
+export 'src/utils/geo_utils.dart';
